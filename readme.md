@@ -34,4 +34,4 @@ Les propriétés des objets ne peuvent être accédées que par ses méthodes. Ainsi, 
 <H2> Polymorphisme</h2>
 <p>Le mot «polymorphisme» dérive de deux mots, à savoir 'Poly' ce qui signifie beaucoup et ' morphes »Signifiant des formes. Ainsi, le polymorphisme signifie de nombreuses formes. Dans un langage de programmation, nous pouvons dire qu'un objet peut prendre plusieurs formes
 
-.</p>  # TestPoo
+.</p>  
