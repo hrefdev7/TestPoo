@@ -22,7 +22,7 @@ Les propriétés des objets ne peuvent être accédées que par ses méthodes. Ainsi, 
 <strong>Variables finales</strong> : Lorsqu'une variable est déclarée finale, sa valeur ne peut pas être modifiée une fois qu'elle a été initialisée </p>
 <p>
 <strong> Java : les modificateurs de visibilité</p></strong>
-<img src="img/2.PNG"> 
+<img src="img/2.png"> 
 
 <strong> <p>Le Modificateur Static</p></strong>
 <p>On appelle élément statique d'une classe tout élément attaché à cette classe plutôt qu'à l'une de ses instances. Un élément statique peut exister, être référencé, ou s'exécuter même si aucune instance de cette classe n'existe. 
