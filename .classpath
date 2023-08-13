@@ -6,5 +6,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/21694/Downloads/jackson-databind-2.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/21694/Downloads/jackson-core-2.15.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/21694/Downloads/jackson-core-2.15.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/21694/Downloads/jackson-core-2.15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/21694/Downloads/jackson-annotations-2.15.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

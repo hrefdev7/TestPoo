@@ -1,21 +1,51 @@
 package test;
+import java.util.Scanner;
+
 import model.BankAccount;
 import model.CurrentAccount;
 import model.SavingAccount;
 
 public class Test {
     public static void main(String[] args) {
+    	
+    	//on donne au utilisateur de taper les donnees
+    	 	  Scanner sc = new Scanner(System.in);
+    	 
+           BankAccount account1=null;//par defaut l'objet est nul
+           account1=new CurrentAccount();
+           //account1.setAccountId("123-543");    
+           //on utilise  le constructeur 
+           //pour generer l'id
+            //
+          System.out.print("Entrer le Balance: ");
+       
+                   account1.setBalance(sc.nextDouble());
 
-        System.out.println("=============================");
-        BankAccount account1=null;//par defaut l'objet est nul
-        account1=new CurrentAccount();
-        //account1.setAccountId("123-543");    
-        //on utilise  le constructeur 
-        //pour generer l'id
-         //
-        account1.setCurrency("Dinars");
-        account1.setBalance(7600);
-        printAccount(account1);
+               	   System.out.println("=============================");
+
+
+          System.out.print("Entrer le Currency ");  
+           account1.setCurrency(sc.next()); //reads string before the space  
+           System.out.println("=============================");
+          System.out.print("VOUS AVEZ CHOISI LCURRRENCY SUIVANT : "+account1.getCurrency());             
+  
+          System.out.println("");
+
+          System.out.println("=============================");
+
+
+          System.out.print("Entrer le OverDraft: ");
+      	  
+
+          ((CurrentAccount) account1).setOverDraft(sc.nextDouble());
+
+       
+
+          sc.close();
+          System.out.println("=============================");
+          BankAccount.printAccount(account1);
+          
+       
 //ici on utlise le polymorphiseme 
         //bankaccount est une classe abstraite impossible
         //de l'instanciéer donc la classe
@@ -23,10 +53,10 @@ public class Test {
         
         BankAccount account2=new CurrentAccount("Dinars",2546,11);
         
-        printAccount(account2);
+        BankAccount.printAccount(account2);
      
         BankAccount account3=new SavingAccount("DINARS",551200,6.6);
-        printAccount(account3);
+        BankAccount.printAccount(account3);
     
         account3.setAccountId(account2.getAccountId());
         account3.setBalance(account2.getBalance());
@@ -61,27 +91,8 @@ public class Test {
    
     }
 
-    public static void printAccount(BankAccount account){
-        System.out.println("*******************************");
-        System.out.println("Account ID= "+account.getAccountId());
-        System.out.println("Balance =  "+account.getBalance());
-        System.out.println("Status= "+account.getStatus());
-        System.out.println("Currency = "+account.getCurrency());
-  
-        hashcodeprint(account);
-        
-        System.out.println(account.equals(account));
-        System.out.println("*******************************");}
    
-     
     
   
-public static  void hashcodeprint(BankAccount account ){
-    System.out.println("*******************************");
-
-    System.out.println("hash code du compte :  "+account.hashCode());
-
-   
-
-    System.out.println("*******************************");
-}} 
+ 
+     } 

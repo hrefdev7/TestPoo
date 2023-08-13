@@ -1,8 +1,10 @@
 package model;
 
-import java.util.Objects;
 import java.util.UUID;
-
+/*
+ * une classe abstraite est une classe qu'on peut pas l'instancié
+ * on utilise abstract classs pour utilisé l'heritage
+ * */
 public abstract class BankAccount {
     private String accountId;
     private double balance;
@@ -18,6 +20,7 @@ public abstract class BankAccount {
         this();
         this.currency=currency;
         this.balance=initialBalance;
+       
     }
 
     public String getAccountId() {
@@ -55,9 +58,8 @@ public abstract class BankAccount {
 
     @Override
     public String toString() {
-        return "BankAccount{" +
-                "accountId='" + accountId + '\'' +
-                ", balance=" + balance +
+        return "BankAccount{" +"accountId='" + accountId 
+        		+ '\'' + ", balance=" + balance +
                 ", currency='" + currency + '\'' +
                 ", status=" + status +
                 '}';
@@ -94,10 +96,40 @@ public abstract class BankAccount {
                 Objects.hashCode(this.currency);
     }
   */
-
+   
     public abstract String getType();
+    
+	 public static void printAccount(BankAccount account){
+	   
+	        System.out.println("Account ID= "+account.getAccountId());
+	        System.out.println("Balance =  "+account.getBalance());
+	        System.out.println("Status= "+account.getStatus());
+	        System.out.println("Currency = "+account.getCurrency());
+	        System.out.println("Type compte : "+account.getType());
+            
+	        if(account instanceof SavingAccount){
+                System.out.println("Rate="+ ((SavingAccount)account).getInterestRate());
+            }
+            if(account instanceof CurrentAccount){
+      System.out.println("Overdraft="+ ((CurrentAccount)account).getOverDraft());
+            } 
+          
+	       
+            hashcodeprint(account);
+	        
+	      }
+	    
+	    public static  void hashcodeprint(BankAccount account ){
+	        System.out.println("*******************************");
 
-    public final void print(){
+	        System.out.println("hash code du compte :  "+account.hashCode());
+
+	       
+
+	        System.out.println("*******************************");
+	    }
+    public final static void print(){
+    	System.out.println();
         System.out.println("----------- Application Gestion compte BANK -----------------");
     }
 }
