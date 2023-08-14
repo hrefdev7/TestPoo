@@ -15,9 +15,11 @@ La programmation orientée objet repose sur 5 concepts fondamentaux à savoir :</p
 <p><h2>L'abstraction </h2>
 <img src="img/3.PNG">
 <img src="img/4.PNG">
+<img src="img/uml.JPG"><br>
+
 <img src="img/Ca.jpg"> 
 <img src="img/cda.PNG"> 
-<img src="img/s.PNG">
+<img src="img/Abstraction.jpg"><br>
 <img src="img/in.jpg">
 <p><h2> L’encapsulation</h2>
 L'encapsulation est un mécanisme consistant à rassembler les données et les méthodes au sein d'une structure en cachant l'implémentation de l'objet, c'est-à-dire en empêchant l'accès aux données par un autre moyen que les services proposé<br>
