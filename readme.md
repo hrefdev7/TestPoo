@@ -1,11 +1,11 @@
-<h1>Les concepts fondamentaux de la programmation orient�e objet</h1>
+<h1>Les concepts fondamentaux de la programmation orientée objet</h1>
 <p>
-La programmation orient�e objet repose sur 5 concepts fondamentaux � savoir :</p>
+La programmation orientée objet repose sur 5 concepts fondamentaux à savoir :</p>
 <ul>
   <li>La classe</li>
-  <li>L�objet</li>
-  <li>L�encapsulation</li>
-  <li>L�h�ritage</li>
+  <li>L’objet</li>
+  <li>L’encapsulation</li>
+  <li>L’héritage</li>
   <li>Le polymorphisme
 </li>
 <li>Les classes Abstraite</li>
@@ -13,28 +13,27 @@ La programmation orient�e objet repose sur 5 concepts fondamentaux � savoir 
 
 </ul>
 <p><h2>L'abstraction </h2>
-<img src="img/jection.png">
+<img src="img/3.PNG">
 <img src="img/4.PNG">
-<img src="img/uml.JPG"><br>
-
+<img src="img/uml.JPG">
 <img src="img/Ca.jpg"> 
-<img src="img/cda.PNG"> 
-<img src="img/Abstraction.jpg"><br>
+ <img src="img/Abstraction.jpg">
 <img src="img/in.jpg">
-<p><h2> L�encapsulation</h2>
-L'encapsulation est un mécanisme consistant � rassembler les donn�es et les m�thodes au sein d'une structure en cachant l'impl�mentation de l'objet, c'est-�-dire en emp�chant l'acc�s aux donn�es par un autre moyen que les services propos�<br>
-c'est l'un des principes cl�s qui aident � concevoir un code bien structur� et facilement maintenable. Il fait r�f�rence � la pratique de regrouper les donn�es (attributs ou variables) et les m�thodes (fonctions) qui op�rent sur ces donn�es en une seule unit�, appel�e une classe. Cette classe contr�le ensuite l'acc�s � ses propres donn�es, restreignant la manipulation directe depuis l'ext�rieur de la classe.
 
-Les propri�t�s des objets ne peuvent �tre acc�d�es que par ses m�thodes. Ainsi, la classe encapsule � la fois les attributs et les m�thodes qui permettent de manipuler les objets ind�pendamment de leurs �tats.</p>
-<strong> Modificateurs de visibilit�</p></strong>En Java, l'encapsulation est r�alis�e gr�ce � l'utilisation des modificateurs d'acc�s et des m�thodes d'acc�s (getters) et de modification (setters). Voici comment fonctionne l'encapsulation en Java :<br>
+
+<p><h2> L’encapsulation</h2>
+L'encapsulation est un mécanisme consistant à rassembler les données et les méthodes au sein d'une structure en cachant l'implémentation de l'objet, c'est-à-dire en empêchant l'accès aux données par un autre moyen que les services proposé<br>
+c'est l'un des principes clés qui aident à concevoir un code bien structuré et facilement maintenable. Il fait référence à la pratique de regrouper les données (attributs ou variables) et les méthodes (fonctions) qui opèrent sur ces données en une seule unité, appelée une classe. Cette classe contrôle ensuite l'accès à ses propres données, restreignant la manipulation directe depuis l'extérieur de la classe.
+
+Les propriétés des objets ne peuvent être accédées que par ses méthodes. Ainsi, la classe encapsule à la fois les attributs et les méthodes qui permettent de manipuler les objets indépendamment de leurs états.</p>
+<strong> Modificateurs de visibilité</p></strong>En Java, l'encapsulation est réalisée grâce à l'utilisation des modificateurs d'accès et des méthodes d'accès (getters) et de modification (setters). Voici comment fonctionne l'encapsulation en Java :<br>
 <img src="img/2.png"> 
 <br> 
-<strong>Variables finales</strong> :<br> final est utilis� pour cr�er des �l�ments immuables et non extensibles, ce qui peut am�liorer la stabilit� et la s�curit� de votre code Java.<br>- La valeur ne peut pas �tre modifi�e une fois qu'elle a �t� initialis�e<br>- Ne peut pas �tre red�finie (surcharg�e) <br>- Ne peut pas �tre �tendue par d'autres classes  </p>
+<strong>Variables finales</strong> :<br> final est utilisé pour créer des éléments immuables et non extensibles, ce qui peut améliorer la stabilité et la sécurité de votre code Java.<br>- La valeur ne peut pas être modifiée une fois qu'elle a été initialisée<br>- Ne peut pas être redéfinie (surchargée) <br>- Ne peut pas être étendue par d'autres classes  </p>
 <p>
 
 
 <strong> <p>Le Modificateur Static</p></strong>
-<p>On appelle �l�ment statique d'une classe tout �l�ment attach� � cette classe plut�t qu'� l'une de ses instances. Un �l�ment statique peut exister, �tre r�f�renc�, ou s'ex�cuter m�me si aucune instance de cette classe n'existe. 
+<p>On appelle élément statique d'une classe tout élément attaché à cette classe plutôt qu'à l'une de ses instances. Un élément statique peut exister, être référencé, ou s'exécuter même si aucune instance de cette classe n'existe. 
 
 .</p> 
-
