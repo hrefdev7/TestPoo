@@ -1,11 +1,11 @@
-<h1>Les concepts fondamentaux de la programmation orientée objet</h1>
+<h1>Les concepts fondamentaux de la programmation orientï¿½e objet</h1>
 <p>
-La programmation orientée objet repose sur 5 concepts fondamentaux à savoir :</p>
+La programmation orientï¿½e objet repose sur 5 concepts fondamentaux ï¿½ savoir :</p>
 <ul>
   <li>La classe</li>
-  <li>L’objet</li>
-  <li>L’encapsulation</li>
-  <li>L’héritage</li>
+  <li>Lï¿½objet</li>
+  <li>Lï¿½encapsulation</li>
+  <li>Lï¿½hï¿½ritage</li>
   <li>Le polymorphisme
 </li>
 <li>Les classes Abstraite</li>
@@ -13,7 +13,7 @@ La programmation orientée objet repose sur 5 concepts fondamentaux à savoir :</p
 
 </ul>
 <p><h2>L'abstraction </h2>
-<img src="img/3.PNG">
+<img src="img/jection.png">
 <img src="img/4.PNG">
 <img src="img/uml.JPG"><br>
 
@@ -21,20 +21,20 @@ La programmation orientée objet repose sur 5 concepts fondamentaux à savoir :</p
 <img src="img/cda.PNG"> 
 <img src="img/Abstraction.jpg"><br>
 <img src="img/in.jpg">
-<p><h2> L’encapsulation</h2>
-L'encapsulation est un mécanisme consistant à rassembler les données et les méthodes au sein d'une structure en cachant l'implémentation de l'objet, c'est-à-dire en empêchant l'accès aux données par un autre moyen que les services proposé<br>
-c'est l'un des principes clés qui aident à concevoir un code bien structuré et facilement maintenable. Il fait référence à la pratique de regrouper les données (attributs ou variables) et les méthodes (fonctions) qui opèrent sur ces données en une seule unité, appelée une classe. Cette classe contrôle ensuite l'accès à ses propres données, restreignant la manipulation directe depuis l'extérieur de la classe.
+<p><h2> Lï¿½encapsulation</h2>
+L'encapsulation est un mÃ©canisme consistant ï¿½ rassembler les donnï¿½es et les mï¿½thodes au sein d'une structure en cachant l'implï¿½mentation de l'objet, c'est-ï¿½-dire en empï¿½chant l'accï¿½s aux donnï¿½es par un autre moyen que les services proposï¿½<br>
+c'est l'un des principes clï¿½s qui aident ï¿½ concevoir un code bien structurï¿½ et facilement maintenable. Il fait rï¿½fï¿½rence ï¿½ la pratique de regrouper les donnï¿½es (attributs ou variables) et les mï¿½thodes (fonctions) qui opï¿½rent sur ces donnï¿½es en une seule unitï¿½, appelï¿½e une classe. Cette classe contrï¿½le ensuite l'accï¿½s ï¿½ ses propres donnï¿½es, restreignant la manipulation directe depuis l'extï¿½rieur de la classe.
 
-Les propriétés des objets ne peuvent être accédées que par ses méthodes. Ainsi, la classe encapsule à la fois les attributs et les méthodes qui permettent de manipuler les objets indépendamment de leurs états.</p>
-<strong> Modificateurs de visibilité</p></strong>En Java, l'encapsulation est réalisée grâce à l'utilisation des modificateurs d'accès et des méthodes d'accès (getters) et de modification (setters). Voici comment fonctionne l'encapsulation en Java :<br>
+Les propriï¿½tï¿½s des objets ne peuvent ï¿½tre accï¿½dï¿½es que par ses mï¿½thodes. Ainsi, la classe encapsule ï¿½ la fois les attributs et les mï¿½thodes qui permettent de manipuler les objets indï¿½pendamment de leurs ï¿½tats.</p>
+<strong> Modificateurs de visibilitï¿½</p></strong>En Java, l'encapsulation est rï¿½alisï¿½e grï¿½ce ï¿½ l'utilisation des modificateurs d'accï¿½s et des mï¿½thodes d'accï¿½s (getters) et de modification (setters). Voici comment fonctionne l'encapsulation en Java :<br>
 <img src="img/2.png"> 
 <br> 
-<strong>Variables finales</strong> :<br> final est utilisé pour créer des éléments immuables et non extensibles, ce qui peut améliorer la stabilité et la sécurité de votre code Java.<br>- La valeur ne peut pas être modifiée une fois qu'elle a été initialisée<br>- Ne peut pas être redéfinie (surchargée) <br>- Ne peut pas être étendue par d'autres classes  </p>
+<strong>Variables finales</strong> :<br> final est utilisï¿½ pour crï¿½er des ï¿½lï¿½ments immuables et non extensibles, ce qui peut amï¿½liorer la stabilitï¿½ et la sï¿½curitï¿½ de votre code Java.<br>- La valeur ne peut pas ï¿½tre modifiï¿½e une fois qu'elle a ï¿½tï¿½ initialisï¿½e<br>- Ne peut pas ï¿½tre redï¿½finie (surchargï¿½e) <br>- Ne peut pas ï¿½tre ï¿½tendue par d'autres classes  </p>
 <p>
 
 
 <strong> <p>Le Modificateur Static</p></strong>
-<p>On appelle élément statique d'une classe tout élément attaché à cette classe plutôt qu'à l'une de ses instances. Un élément statique peut exister, être référencé, ou s'exécuter même si aucune instance de cette classe n'existe. 
+<p>On appelle ï¿½lï¿½ment statique d'une classe tout ï¿½lï¿½ment attachï¿½ ï¿½ cette classe plutï¿½t qu'ï¿½ l'une de ses instances. Un ï¿½lï¿½ment statique peut exister, ï¿½tre rï¿½fï¿½rencï¿½, ou s'exï¿½cuter mï¿½me si aucune instance de cette classe n'existe. 
 
 .</p> 
 

@@ -2,8 +2,8 @@ package model;
 
 import java.util.UUID;
 /*
- * une classe abstraite est une classe qu'on peut pas l'instancié
- * on utilise abstract classs pour utilisé l'heritage
+ * une classe abstraite est une classe qu'on peut pas l'instanciï¿½
+ * on utilise abstract classs pour utilisï¿½ l'heritage
  * */
 public abstract class BankAccount {
     private String accountId;

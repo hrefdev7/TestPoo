@@ -13,7 +13,7 @@ import model.BankAccount;
  
 public interface BankAccountService {
    BankAccount addBankAccount(BankAccount account);
-   /* La généricité en Java *depuis java5*
+   /* La genericite en Java *depuis java5*
     * on declare une liste de bankaccount  list<bankaccount> aulieu de list<>
     * on prescise le type dans la liste
  
